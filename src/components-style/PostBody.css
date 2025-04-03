@@ -1,0 +1,91 @@
+.post-detail-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    width: 100% - 30px;
+    min-height: 150px;
+    box-sizing: border-box; 
+    margin: 15px;
+    
+}
+
+.post-title {
+    margin: 0 0 10px 0;
+    color: #333;
+    font-size: 1.2rem;
+    font-weight: bold; 
+}
+
+.post-content {
+    color: #666;
+    font-size: 0.9rem;
+    line-height: 1.4;
+    margin-bottom: 15px;
+    flex-grow: 1;
+}
+
+.post-actions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: auto;
+}
+
+.action-detail-button, .delete-button,.action-cancel-button  {
+    padding: 12px 24px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.8rem;
+    transition: all 0.2s;
+}
+
+.action-detail-button {
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+}
+
+.action-detail-button:hover {
+    background-color: #47461d;
+}
+
+.action-cancel-button {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+}
+
+.action-cancel-button:hover {
+    background-color: #a7a77e;
+}
+
+.delete-button {
+    background-color: #f44336;
+    color: white;
+}
+
+.delete-button:hover {
+    background-color: #d32f2f;
+}
+
+.edit-actions {
+    display: flex;
+    gap: 10px;
+    flex-direction: column; 
+}
+
+.edit-actions-button {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.edit-title-input,
+.edit-body-textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }

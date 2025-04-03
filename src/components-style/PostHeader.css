@@ -1,0 +1,24 @@
+  .container {
+    display: flex;
+    padding: 10px;
+    border: 1px solid #ddd;
+    width: 100%;
+    box-sizing: border-box; 
+    margin: 20px 0; 
+    border-radius: 8px;
+  }
+
+  .back-button {
+    padding: 7px 10px;
+    background-color: #040b13;
+    color: white;
+    border-radius: 4px;
+    font-size: 0.8rem; 
+    cursor: pointer;
+    min-width: 160px; 
+    height: 30px; 
+  }
+
+  .back-button:hover {
+    background-color: #e98ae7;
+  }
