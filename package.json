@@ -30,7 +30,7 @@
       "react-app/jest"
     ]
   },
-  "homepage": "https://shev05.github.io/Test_Posts",
+  "homepage": ".",
   "browserslist": {
     "production": [
       ">0.2%",
